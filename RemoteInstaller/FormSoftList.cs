@@ -74,7 +74,12 @@ namespace SoftManager
         //создаем или добавляем в существующий файл названия и версии полученных программ, если таких в нем не содержится
         void WriteSoftList()
         {
-            String file = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + "\\SoftManager\\SoftList.csv";
+            String dataFolder = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + "\\softmanager\\";
+            String file =  dataFolder + "SoftList.csv";
+            if (!Directory.Exists(dataFolder))
+            {
+                Directory.CreateDirectory(dataFolder);
+            }
             if (!File.Exists(file))
             {
                 System.IO.FileStream fs = System.IO.File.Create(file);
