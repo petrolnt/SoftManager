@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoftManager.AboutBox1" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIACAAgAACAgCAUAAACAAAADAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>AboutBox1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.ChoseItem" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACEAAAEAAACAAEACAAEgAAAABAAAAwgAAAA=</HashCode>
+      <FileName>ChoseItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.ComputerEntry" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAAIAAAAAAAAQAgAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComputerEntry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftManager.ComputersSet" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ComputersSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.FolderName" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEQ=</HashCode>
+      <FileName>FolderName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.FormChoseComp" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACFAgABBASQAAFEAACGDEEgCAgECgBgAgEAAKgAFIQQ=</HashCode>
+      <FileName>FormChoseComp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftManager.FormSoftList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAARAGAEMBEAAACAAEiDEAMAAAQACAABCwAAAUU=</HashCode>
+      <FileName>FormSoftList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftManager.ImportADComp" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCBCABAiAEAAEAAgCAAEACQAEAERAAAAAAAQEAAAA=</HashCode>
+      <FileName>ImportADComp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.MainForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LQAEAAABADAAIHEAgCCCQICDCAIyAggEoHAIDEEZIgE=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftManager.Program" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.ProgressTable" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAEEEAAEgCAAAgCQAAAAgAAAAgBAQAgAAA=</HashCode>
+      <FileName>ProgressTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.SoftEntry" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAAAAAAAAAAQAAAAEAgAAAAIAAAAAAAA=</HashCode>
+      <FileName>SoftEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.SoftGridView" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAAAAAAAAAAIAAAAAQACEAEEABACAAIAAgAAAAA=</HashCode>
+      <FileName>SoftGridView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.FormSoftManager" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACCAAAAAAACAAAACAAAAAAAAAEAAAAAQAAA=</HashCode>
+      <FileName>SoftManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.StaticWMIProcess" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAACAAAEAAAAAAACAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>StaticWMIProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.WMIProcess" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAJACAEAEIAAAACAAABAACAAAAUAOoQFCAmEAMAA=</HashCode>
+      <FileName>WMIProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftManager.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SoftManager.IParrentForm" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>IParrentForm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
