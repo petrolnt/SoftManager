@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace SoftManager
 {
 
-    //статический класс, метод getComputers() которого выбирает все учетные записи компьютеров из Active Directory
+    //статический класс, метод getComputers() которого выбирает все учетные записи компьютеров из  Active Directory
     public static class ComputersSet
     {
 
