@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel;
+using System.Resources;
+using System.Reflection;
 
 ///<summary>
 ///класс обьект которого представляет состояние компьютера на котором идет процесс установки/удаления программы
@@ -15,13 +17,14 @@ namespace SoftManager
         public event PropertyChangedEventHandler PropertyChanged;
         string name;
         string status;
+        ResourceManager rm = new ResourceManager("items", Assembly.GetExecutingAssembly());
         public ComputerEntry()
         {
         }
         public ComputerEntry(string name)
         {
             this.name = name;
-            status = "Ожидание...";
+            status = rm.GetString("Waiting");
         }
 
         public ComputerEntry(string name, string status)

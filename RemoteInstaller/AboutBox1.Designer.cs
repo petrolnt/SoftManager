@@ -108,7 +108,7 @@
             this.labelProductName.Name = "labelProductName";
             this.labelProductName.Size = new System.Drawing.Size(266, 13);
             this.labelProductName.TabIndex = 19;
-            this.labelProductName.Text = "MSIRemouteInstaller";
+            this.labelProductName.Text = "SoftManager";
             this.labelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tableLayoutPanel

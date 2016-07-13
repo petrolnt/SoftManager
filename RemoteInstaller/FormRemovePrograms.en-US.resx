@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>11, 34</value>
+  </data>
+  <data name="label1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="label1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Computer name</value>
+  </data>
+  <data name="tbComputer.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>10, 51</value>
+  </data>
+  <data name="tbComputer.Multiline" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbComputer.ScrollBars" xml:space="preserve" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="tbComputer.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>306, 49</value>
+  </data>
+  <data name="tbComputer.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnCompsImport.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>322, 51</value>
+  </data>
+  <data name="btnCompsImport.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>34, 20</value>
+  </data>
+  <data name="btnCompsImport.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnCompsImport.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnScan.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnScan.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>101, 309</value>
+  </data>
+  <data name="btnScan.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="btnScan.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnScan.Text" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="btnCancel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>275, 309</value>
+  </data>
+  <data name="btnCancel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="cBanotherUser.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cBanotherUser.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>14, 152</value>
+  </data>
+  <data name="cBanotherUser.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>190, 17</value>
+  </data>
+  <data name="cBanotherUser.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cBanotherUser.Text" xml:space="preserve">
+    <value>As a different user</value>
+  </data>
+  <data name="tbAdmin.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>10, 194</value>
+  </data>
+  <data name="tbAdmin.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>143, 20</value>
+  </data>
+  <data name="tbAdmin.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label2.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>14, 175</value>
+  </data>
+  <data name="label2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="label2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="label3.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>172, 175</value>
+  </data>
+  <data name="label3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="label4.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>10, 13</value>
+  </data>
+  <data name="label4.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>258, 13</value>
+  </data>
+  <data name="label4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Specify the NETBIOS computer name or the IP address</value>
+  </data>
+  <data name="tbPassword.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>175, 194</value>
+  </data>
+  <data name="tbPassword.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="tbPassword.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnDelete.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnDelete.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>190, 309</value>
+  </data>
+  <data name="btnDelete.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="btnDelete.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="tbSoftName.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>10, 119</value>
+  </data>
+  <data name="tbSoftName.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>306, 20</value>
+  </data>
+  <data name="tbSoftName.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnChoseSoft.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>322, 119</value>
+  </data>
+  <data name="btnChoseSoft.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>34, 20</value>
+  </data>
+  <data name="btnChoseSoft.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnChoseSoft.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="label5.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>7, 103</value>
+  </data>
+  <data name="label5.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="label5.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Program Name</value>
+  </data>
+  <data name="rbNoReboot.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbNoReboot.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>10, 232</value>
+  </data>
+  <data name="rbNoReboot.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>202, 17</value>
+  </data>
+  <data name="rbNoReboot.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="rbNoReboot.Text" xml:space="preserve">
+    <value>Do not reboot after uninstall</value>
+  </data>
+  <data name="rbReboot.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbReboot.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>10, 256</value>
+  </data>
+  <data name="rbReboot.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>181, 17</value>
+  </data>
+  <data name="rbReboot.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="rbReboot.Text" xml:space="preserve">
+    <value>Force restart</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>369, 348</value>
+  </data>
+  <data name="$this.StartPosition" xml:space="preserve" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Computer Selection</value>
+  </data>
+  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Resources;
 
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
@@ -32,5 +33,6 @@ using System.Runtime.InteropServices;
 // Можно задать все значения или принять номер построения и номер редакции по умолчанию, 
 // используя "*", как показано ниже:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.9")]
-[assembly: AssemblyFileVersion("0.1")]
+[assembly: AssemblyVersion("0.9.*")]
+[assembly: AssemblyFileVersion("1")]
+[assembly: NeutralResourcesLanguageAttribute("ru-RU")]

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSoftList));
             this.label1 = new System.Windows.Forms.Label();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnExport = new System.Windows.Forms.Button();
@@ -43,49 +44,35 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(323, 189);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
-            this.label1.TabIndex = 0;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(516, 501);
+            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 2;
-            this.btnDelete.Text = "Удалить";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(435, 501);
+            resources.ApplyResources(this.btnExport, "btnExport");
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(75, 23);
-            this.btnExport.TabIndex = 3;
-            this.btnExport.Text = "Экспорт";
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(354, 501);
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 4;
-            this.btnCancel.Text = "Выход";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // panel
             // 
-            this.panel.Location = new System.Drawing.Point(-1, 1);
+            resources.ApplyResources(this.panel, "panel");
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(601, 487);
-            this.panel.TabIndex = 5;
             // 
             // backgroundWorker1
             // 
@@ -93,35 +80,26 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(13, 501);
+            resources.ApplyResources(this.progressBar1, "progressBar1");
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(100, 23);
             this.progressBar1.Step = 1;
-            this.progressBar1.TabIndex = 6;
-            this.progressBar1.Visible = false;
             // 
             // lblProgress
             // 
-            this.lblProgress.AutoSize = true;
-            this.lblProgress.Location = new System.Drawing.Point(12, 527);
+            resources.ApplyResources(this.lblProgress, "lblProgress");
             this.lblProgress.Name = "lblProgress";
-            this.lblProgress.Size = new System.Drawing.Size(134, 13);
-            this.lblProgress.TabIndex = 7;
-            this.lblProgress.Text = "Выполняется удаление...";
-            this.lblProgress.Visible = false;
             // 
             // saveFileDialog
             // 
             this.saveFileDialog.DefaultExt = "csv";
             this.saveFileDialog.FileName = "Report.csv";
-            this.saveFileDialog.Title = "Экспорт отчета по удалению программ";
+            resources.ApplyResources(this.saveFileDialog, "saveFileDialog");
             this.saveFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog_FileOk);
             // 
             // FormSoftList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(602, 547);
             this.Controls.Add(this.lblProgress);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.panel);
@@ -131,7 +109,6 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormSoftList";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="okButton.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>198, 10</value>
+  </data>
+  <data name="okButton.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="okButton.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="okButton.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="removeButton.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>13, 10</value>
+  </data>
+  <data name="removeButton.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="removeButton.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="removeButton.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="adButton.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>103, 10</value>
+  </data>
+  <data name="adButton.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="adButton.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="adButton.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="panel1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 224</value>
+  </data>
+  <data name="panel1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>285, 39</value>
+  </data>
+  <data name="panel1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="splitContainer1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitContainer1.IsSplitterFixed" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="adListBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="adListBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>175, 225</value>
+  </data>
+  <data name="adListBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="installListBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>5, 4</value>
+  </data>
+  <data name="installListBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>183, 225</value>
+  </data>
+  <data name="installListBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="splitContainer1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>377, 229</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>181</value>
+  </data>
+  <data name="splitContainer1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>-1, -1</value>
+  </data>
+  <data name="panel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>377, 229</value>
+  </data>
+  <data name="panel2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>290, 234</value>
+  </data>
+  <data name="btnCancel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>375, 262</value>
+  </data>
+  <data name="$this.StartPosition" xml:space="preserve" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Import from Active Directory</value>
+  </data>
+  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

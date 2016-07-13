@@ -10,13 +10,15 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SoftManager</RootNamespace>
     <AssemblyName>SoftManager</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <PublishUrl>c:\reminstall\SoftManager\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -35,7 +37,6 @@
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -59,8 +60,7 @@
     </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>Resources\ColorSync1.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>false</GenerateManifests>
@@ -81,6 +81,10 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>ru-RU</MultilingualFallbackLanguage>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -123,11 +127,11 @@
       <DependentUpon>ChoseItem.cs</DependentUpon>
     </Compile>
     <Compile Include="ComputerEntry.cs" />
-    <Compile Include="FormChoseComp.cs">
+    <Compile Include="FormRemovePrograms.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormChoseComp.Designer.cs">
-      <DependentUpon>FormChoseComp.cs</DependentUpon>
+    <Compile Include="FormRemovePrograms.Designer.cs">
+      <DependentUpon>FormRemovePrograms.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSoftList.cs">
       <SubType>Form</SubType>
@@ -156,11 +160,11 @@
     <Compile Include="ImportADComp.Designer.cs">
       <DependentUpon>ImportADComp.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="FormInstallPrograms.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="FormInstallPrograms.Designer.cs">
+      <DependentUpon>FormInstallPrograms.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProgressTable.cs">
@@ -170,27 +174,43 @@
       <DependentUpon>ProgressTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.en-US.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoseItem.en-US.resx">
+      <DependentUpon>ChoseItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChoseItem.resx">
       <DependentUpon>ChoseItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormChoseComp.resx">
-      <DependentUpon>FormChoseComp.cs</DependentUpon>
+    <EmbeddedResource Include="FormInstallPrograms.en-US.resx">
+      <DependentUpon>FormInstallPrograms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInstallPrograms.resx">
+      <DependentUpon>FormInstallPrograms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRemovePrograms.en-US.resx">
+      <DependentUpon>FormRemovePrograms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRemovePrograms.resx">
+      <DependentUpon>FormRemovePrograms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSoftList.en-US.resx">
+      <DependentUpon>FormSoftList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSoftList.resx">
       <DependentUpon>FormSoftList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ImportADComp.en-US.resx">
+      <DependentUpon>ImportADComp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ImportADComp.resx">
       <DependentUpon>ImportADComp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProgressTable.resx">
-      <DependentUpon>ProgressTable.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en-US.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -201,8 +221,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SoftGridView.en-US.resx">
+      <DependentUpon>SoftGridView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SoftGridView.resx">
       <DependentUpon>SoftGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoftManager.en-US.resx">
+      <DependentUpon>SoftManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SoftManager.resx">
       <DependentUpon>SoftManager.cs</DependentUpon>
@@ -226,7 +252,7 @@
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
@@ -259,7 +285,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ColorSync1.ico" />
+    <Content Include="Resources\ColorSync1.ico" />
     <None Include="Resources\System-Install-2-icon.png" />
     <None Include="Resources\System-Install-1-icon.png" />
     <None Include="Resources\Soft-Install-1-icon.png" />
@@ -269,26 +295,33 @@
   <ItemGroup>
     <PublishFile Include="Microsoft.VisualBasic.PowerPacks.Vs">
       <Visible>False</Visible>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="ru\Microsoft.VisualBasic.PowerPacks.Vs.resources">
       <Visible>False</Visible>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>False</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>False</IncludeHash>
       <FileType>Satellite</FileType>
     </PublishFile>
   </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\SoftManager.en-US.xlf" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

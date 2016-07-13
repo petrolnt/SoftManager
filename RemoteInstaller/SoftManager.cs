@@ -27,14 +27,14 @@ namespace SoftManager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MainForm remoteInstaller = new MainForm(this);
+            FormInstallPrograms remoteInstaller = new FormInstallPrograms(this);
             this.Visible = false;
             remoteInstaller.Visible = true;
         }
 
         private void btnRemoteUninstaller_Click(object sender, EventArgs e)
         {
-            FormChoseComp choseComp = new FormChoseComp(this);
+            FormRemovePrograms choseComp = new FormRemovePrograms(this);
             this.Visible = false;
             choseComp.Visible = true;
             
@@ -53,14 +53,14 @@ namespace SoftManager
 
         private void installProgramToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MainForm remoteInstaller = new MainForm(this);
+            FormInstallPrograms remoteInstaller = new FormInstallPrograms(this);
             this.Visible = false;
             remoteInstaller.Visible = true;
         }
 
         private void uninstallProgramToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormChoseComp choseComp = new FormChoseComp(this);
+            FormRemovePrograms choseComp = new FormRemovePrograms(this);
             this.Visible = false;
             choseComp.Visible = true;
         }

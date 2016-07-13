@@ -61,6 +61,51 @@ namespace SoftManager.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Файл.
+        /// </summary>
+        internal static string File {
+            get {
+                return ResourceManager.GetString("File", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Справка.
+        /// </summary>
+        internal static string Help {
+            get {
+                return ResourceManager.GetString("Help", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SoftManager.
+        /// </summary>
+        internal static string ProgramName {
+            get {
+                return ResourceManager.GetString("ProgramName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Установка программ.
+        /// </summary>
+        internal static string SoftwareInstalation {
+            get {
+                return ResourceManager.GetString("SoftwareInstalation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Удаление программ.
+        /// </summary>
+        internal static string SowtwareRemoving {
+            get {
+                return ResourceManager.GetString("SowtwareRemoving", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap SystemInstallIcon {
@@ -77,6 +122,15 @@ namespace SoftManager.Properties {
             get {
                 object obj = ResourceManager.GetObject("SystemUninstallIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ожидание.
+        /// </summary>
+        internal static string Waiting {
+            get {
+                return ResourceManager.GetString("Waiting", resourceCulture);
             }
         }
     }

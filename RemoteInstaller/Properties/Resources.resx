@@ -117,11 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="ProgramName" xml:space="preserve">
+    <value>SoftManager</value>
+  </data>
+  <data name="SoftwareInstalation" xml:space="preserve">
+    <value>Установка программ</value>
+  </data>
+  <data name="SowtwareRemoving" xml:space="preserve">
+    <value>Удаление программ</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SystemInstallIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\System-Install-1-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SystemUninstallIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\System-Install-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Ожидание</value>
   </data>
 </root>

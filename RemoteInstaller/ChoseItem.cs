@@ -19,7 +19,7 @@ namespace SoftManager
 {
     public partial class ChoseItem : Form
     {
-        FormChoseComp formChoseComp;
+        FormRemovePrograms formChoseComp;
         //string admin;
         //string password;
         //string domain;
@@ -34,7 +34,7 @@ namespace SoftManager
         //    setComputers();
         //    lbItems.Sorted = true;
         //}
-        public ChoseItem(FormChoseComp parrent)
+        public ChoseItem(FormRemovePrograms parrent)
         {
             InitializeComponent();
             formChoseComp = parrent;
@@ -45,9 +45,11 @@ namespace SoftManager
 
         protected void setSoft()
         {
-            if(File.Exists("SoftList.csv"))
+            String dataFolder = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + "\\SoftManager\\";
+            String file = dataFolder + "SoftList.csv";
+            if (File.Exists(file))
             {
-            string[] softList = File.ReadAllText("SoftList.csv").Split('\t');
+            string[] softList = File.ReadAllText(file).Split('\t');
             for (int i = 0; i < softList.Length; i++)
             {
                 if (softList[i].Length > 0)
