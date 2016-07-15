@@ -17,14 +17,14 @@ namespace SoftManager
         public event PropertyChangedEventHandler PropertyChanged;
         string name;
         string status;
-        ResourceManager rm = new ResourceManager("items", Assembly.GetExecutingAssembly());
+        
         public ComputerEntry()
         {
         }
         public ComputerEntry(string name)
         {
             this.name = name;
-            status = rm.GetString("Waiting");
+            status = Properties.Resources.Waiting;
         }
 
         public ComputerEntry(string name, string status)

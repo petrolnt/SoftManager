@@ -117,17 +117,86 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Application" xml:space="preserve">
+    <value>Программа</value>
+  </data>
+  <data name="ApplicationID" xml:space="preserve">
+    <value>Идентификатор приложения</value>
+  </data>
+  <data name="ApplicationNotFound" xml:space="preserve">
+    <value>Программа не найдена</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Готово!</value>
+  </data>
+  <data name="ComputerName" xml:space="preserve">
+    <value>Имя компьютера</value>
+  </data>
+  <data name="CopyFiles" xml:space="preserve">
+    <value>Копирование файлов...</value>
+  </data>
+  <data name="DataEntryError" xml:space="preserve">
+    <value>Ошибка ввода данных!</value>
+  </data>
+  <data name="DateOfInstalation" xml:space="preserve">
+    <value>Дата Установки</value>
+  </data>
+  <data name="Deleting" xml:space="preserve">
+    <value>Удаление </value>
+  </data>
   <data name="File" xml:space="preserve">
     <value>Файл</value>
+  </data>
+  <data name="GettingListOfInstalledPrograms" xml:space="preserve">
+    <value>Получение списка установленных программ</value>
   </data>
   <data name="Help" xml:space="preserve">
     <value>Справка</value>
   </data>
+  <data name="HostNotAvailable" xml:space="preserve">
+    <value>Узел недоступен</value>
+  </data>
+  <data name="Instalation" xml:space="preserve">
+    <value>Установка...</value>
+  </data>
+  <data name="InstalationResults" xml:space="preserve">
+    <value>Результаты установки</value>
+  </data>
+  <data name="InstalationStatus" xml:space="preserve">
+    <value>Состояние установки</value>
+  </data>
+  <data name="MustSpecifyComputerName" xml:space="preserve">
+    <value>Необходимо указать имя компьютера!</value>
+  </data>
+  <data name="MustSpecifyDistributive" xml:space="preserve">
+    <value>Необходимо указать дистрибутив!</value>
+  </data>
+  <data name="ProcessStatus" xml:space="preserve">
+    <value>Состояние процесса</value>
+  </data>
   <data name="ProgramName" xml:space="preserve">
     <value>SoftManager</value>
   </data>
+  <data name="RemovingResults" xml:space="preserve">
+    <value>Результаты удаления</value>
+  </data>
+  <data name="Scaning" xml:space="preserve">
+    <value>Сканирование</value>
+  </data>
+  <data name="ScaningComplete" xml:space="preserve">
+    <value>Сканирование завершено</value>
+  </data>
+  <data name="SearchingProgram" xml:space="preserve">
+    <value>Поиск программы...</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
   <data name="SoftwareInstalation" xml:space="preserve">
     <value>Установка программ</value>
+  </data>
+  <data name="SoftwareListOnComputer" xml:space="preserve">
+    <value>Список программного обеспечения на компьютере</value>
   </data>
   <data name="SowtwareRemoving" xml:space="preserve">
     <value>Удаление программ</value>
@@ -138,6 +207,9 @@
   </data>
   <data name="SystemUninstallIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\System-Install-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версия</value>
   </data>
   <data name="Waiting" xml:space="preserve">
     <value>Ожидание</value>

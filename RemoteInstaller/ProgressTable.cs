@@ -31,7 +31,7 @@ namespace SoftManager
             dataGridView = new DataGridView();
             bSource = bindingSource;
             dataGridView.DataSource = bindingSource;
-            this.Text = "Результаты установки";
+            this.Text = Properties.Resources.InstalationResults;
             this.mainForm = mainForm;
             //подготовка внешнего вида и привязка данных к таблице DataGridView
             //которую впоследствии передадим для инициализации окна с результатами развертывания пакета
@@ -40,11 +40,11 @@ namespace SoftManager
             dataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             DataGridViewColumn column = new DataGridViewTextBoxColumn();
             column.DataPropertyName = "Name";
-            column.Name = "Имя компьютера";
+            column.Name = Properties.Resources.ComputerName;
             dataGridView.Columns.Add(column);
             column = new DataGridViewTextBoxColumn();
             column.DataPropertyName = "Status";
-            column.Name = "Состояние установки";
+            column.Name = Properties.Resources.InstalationStatus;
             dataGridView.Columns.Add(column);
             dataGridView.RowsDefaultCellStyle.BackColor = Color.Bisque;
             dataGridView.AlternatingRowsDefaultCellStyle.BackColor = Color.Beige;

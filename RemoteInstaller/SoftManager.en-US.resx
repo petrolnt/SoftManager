@@ -37,7 +37,7 @@
     <value>3</value>
   </data>
   <data name="lblSoftwareInstall.Text" xml:space="preserve">
-    <value>Get programs</value>
+    <value>Install programs</value>
   </data>
   <data name="label2.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4610,22 +4610,43 @@
   <data name="tsInstallProgramm.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
   </data>
+  <data name="tsInstallProgramm.Text" xml:space="preserve">
+    <value>Install programs</value>
+  </data>
   <data name="tsUninstallProgramm.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
+  </data>
+  <data name="tsUninstallProgramm.Text" xml:space="preserve">
+    <value>Remove programs</value>
   </data>
   <data name="tsMenuClose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
   </data>
+  <data name="tsMenuClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
   <data name="tsmFile.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>48, 20</value>
+  </data>
+  <data name="tsmFile.Text" xml:space="preserve">
+    <value>File</value>
   </data>
   <data name="tsHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
+  <data name="tsHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
   <data name="tsAbout.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
+  <data name="tsAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
   <data name="tsmHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>65, 20</value>
+  </data>
+  <data name="tsmHelp.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
 </root>

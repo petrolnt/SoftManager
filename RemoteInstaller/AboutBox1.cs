@@ -13,12 +13,11 @@ namespace SoftManager
         public AboutBox1()
         {
             InitializeComponent();
-            this.Text = String.Format("О {0} {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
-            //this.labelVersion.Text = String.Format("Версия {0} {0}", AssemblyVersion);
-            this.labelCopyright.Text = AssemblyCopyright;
-            this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
+            //this.Text = String.Format("О {0} {0}", AssemblyTitle);
+            //this.labelProductName.Text = AssemblyProduct;
+            ////this.labelVersion.Text = String.Format("Версия {0} {0}", AssemblyVersion);
+            //this.labelCopyright.Text = AssemblyCopyright;
+            //this.textBoxDescription.Text = AssemblyDescription;
         }
 
         #region Методы доступа к атрибутам сборки

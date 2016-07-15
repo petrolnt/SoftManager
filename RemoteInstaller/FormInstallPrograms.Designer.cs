@@ -33,9 +33,9 @@
             this.compNameField = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.filePathField = new System.Windows.Forms.TextBox();
-            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnChoosePackage = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnInstall = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.userNameField = new System.Windows.Forms.TextBox();
@@ -50,7 +50,7 @@
             this.rebootAfterInstall = new System.Windows.Forms.RadioButton();
             this.noReboot = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.lblExeOptions = new System.Windows.Forms.Label();
             this.tbExeOptions = new System.Windows.Forms.TextBox();
             this.afterInstalPanel.SuspendLayout();
@@ -72,24 +72,24 @@
             this.filePathField.Name = "filePathField";
             this.filePathField.TextChanged += new System.EventHandler(this.filePathField_TextChanged);
             // 
-            // btnCancel
+            // btnChoosePackage
             // 
-            resources.ApplyResources(this.btnCancel, "btnCancel");
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.btnChoosePackage, "btnChoosePackage");
+            this.btnChoosePackage.Name = "btnChoosePackage";
+            this.btnChoosePackage.UseVisualStyleBackColor = true;
+            this.btnChoosePackage.Click += new System.EventHandler(this.btnChoosePackage_Click);
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
-            // button2
+            // btnInstall
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            resources.ApplyResources(this.btnInstall, "btnInstall");
+            this.btnInstall.Name = "btnInstall";
+            this.btnInstall.UseVisualStyleBackColor = true;
+            this.btnInstall.Click += new System.EventHandler(this.btnInstall_Click);
             // 
             // openFileDialog1
             // 
@@ -178,12 +178,12 @@
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
             // 
-            // button3
+            // btnCancel
             // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            resources.ApplyResources(this.btnCancel, "btnCancel");
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // lblExeOptions
             // 
@@ -199,9 +199,10 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnInstall);
             this.Controls.Add(this.tbExeOptions);
             this.Controls.Add(this.lblExeOptions);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.afterInstalPanel);
             this.Controls.Add(this.importComp);
             this.Controls.Add(this.useDirectory);
@@ -211,9 +212,8 @@
             this.Controls.Add(this.passwordField);
             this.Controls.Add(this.userNameField);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnChoosePackage);
             this.Controls.Add(this.filePathField);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.compNameField);
@@ -232,9 +232,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox filePathField;
-        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnChoosePackage;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnInstall;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox userNameField;
@@ -250,7 +250,7 @@
         private System.Windows.Forms.RadioButton noReboot;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RadioButton rebootAfterInstall;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label lblExeOptions;
         private System.Windows.Forms.TextBox tbExeOptions;
         

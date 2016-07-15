@@ -7,7 +7,7 @@ using System.Resources;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("SoftManager")]
-[assembly: AssemblyDescription("Программа предназначена для удаленного управления програмным обеспечением с помощью WMI.")]
+[assembly: AssemblyDescription("Эта утилита предназначена для удаленной установки и удаления программ.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SoftManager")]

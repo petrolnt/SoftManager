@@ -88,7 +88,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core">
@@ -179,12 +178,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="ChoseItem.en-US.resx">
       <DependentUpon>ChoseItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChoseItem.resx">
       <DependentUpon>ChoseItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInstallPrograms.en-US.resx">
       <DependentUpon>FormInstallPrograms.cs</DependentUpon>
@@ -209,6 +210,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ImportADComp.resx">
       <DependentUpon>ImportADComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressTable.en-US.resx">
+      <DependentUpon>ProgressTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressTable.resx">
+      <DependentUpon>ProgressTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.en-US.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">

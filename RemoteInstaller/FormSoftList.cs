@@ -66,7 +66,7 @@ namespace SoftManager
                     tabControl.Controls.Add(tabPage);
                 }
             }
-            this.Text = "Список программного обеспечения на компьютере ";
+            this.Text = Properties.Resources.SoftwareListOnComputer;
             this.panel.Controls.Add(tabControl);
             WriteSoftList();
         }
@@ -179,7 +179,7 @@ namespace SoftManager
             string programName = program[1] + " " + program[2];
             if (!string.IsNullOrEmpty(programName))
             {
-                lblProgress.Text = "Удаление " + programName;
+                lblProgress.Text = Properties.Resources.Deleting + programName;
             }
             resultList.Add(program);
         }
@@ -192,7 +192,7 @@ namespace SoftManager
                 lblProgress.Text = e.Error.Message;
             }
             else
-            lblProgress.Text = "Готово!";
+            lblProgress.Text = Properties.Resources.Completed;
             btnExport.Enabled = true;
             btnDelete.Enabled = true;
             tabControl.Enabled = true;
@@ -245,9 +245,9 @@ namespace SoftManager
                 }
             }
             //отображаем форму с таблицей результатов удаления
-            string formName = "Результаты удаления";
-            string firstColumnName = "Программа";
-            string secondColumnName = "Результаты удаления";
+            string formName = Properties.Resources.RemovingResults;
+            string firstColumnName = Properties.Resources.Application;
+            string secondColumnName = Properties.Resources.RemovingResults;
             ProgressTable progressTable = new ProgressTable(bindingSource, this, formName, firstColumnName, secondColumnName);
             progressTable.ShowDialog();
             
@@ -262,7 +262,7 @@ namespace SoftManager
         private void saveFileDialog_FileOk(object sender, CancelEventArgs e)
         {
             SoftGridView softGridView = (SoftGridView)tabControl.SelectedTab.Controls[0];
-            string strExport = "Имя программы;" + "Версия;" + "Дата установки;";
+            string strExport = Properties.Resources.Application + ";" + Properties.Resources.Version + ";" + Properties.Resources.DateOfInstalation + ";";
            
             strExport += Environment.NewLine.ToString();
             foreach (DataGridViewRow row in softGridView.Rows)

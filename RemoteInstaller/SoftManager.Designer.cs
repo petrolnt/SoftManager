@@ -92,7 +92,7 @@
             // 
             this.tsHelp.Name = "tsHelp";
             resources.ApplyResources(this.tsHelp, "tsHelp");
-            this.tsHelp.Click += new System.EventHandler(this.справкаToolStripMenuItem1_Click);
+            this.tsHelp.Click += new System.EventHandler(this.helpToolStripMenuItem1_Click);
             // 
             // tsAbout
             // 
@@ -124,7 +124,7 @@
             resources.ApplyResources(this.btnRemoteInstaller, "btnRemoteInstaller");
             this.btnRemoteInstaller.Name = "btnRemoteInstaller";
             this.btnRemoteInstaller.UseVisualStyleBackColor = true;
-            this.btnRemoteInstaller.Click += new System.EventHandler(this.button1_Click);
+            this.btnRemoteInstaller.Click += new System.EventHandler(this.btnRemoteInstaller_Click);
             // 
             // helpProvider1
             // 

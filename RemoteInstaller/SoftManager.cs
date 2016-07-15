@@ -25,7 +25,7 @@ namespace SoftManager
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnRemoteInstaller_Click(object sender, EventArgs e)
         {
             FormInstallPrograms remoteInstaller = new FormInstallPrograms(this);
             this.Visible = false;
@@ -34,9 +34,9 @@ namespace SoftManager
 
         private void btnRemoteUninstaller_Click(object sender, EventArgs e)
         {
-            FormRemovePrograms choseComp = new FormRemovePrograms(this);
+            FormRemovePrograms remoteUninstaller = new FormRemovePrograms(this);
             this.Visible = false;
-            choseComp.Visible = true;
+            remoteUninstaller.Visible = true;
             
         }
 
@@ -65,7 +65,7 @@ namespace SoftManager
             choseComp.Visible = true;
         }
 
-        private void справкаToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void helpToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             HelpNavigator navigator = HelpNavigator.TableOfContents;
             Help.ShowHelp(this, helpfile, navigator);

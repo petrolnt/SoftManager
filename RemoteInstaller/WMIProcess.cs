@@ -197,7 +197,7 @@ namespace SoftManager
                                 iU.Impersonate(String.Empty, userName, password);
                             
                         }
-                        entry.Status = "Копирование файлов...";
+                        entry.Status = Properties.Resources.CopyFiles;
                         remoteFolder = @"\\" + remoteMachine + @"\c$\" + randomFolderName + @"\";
 
                         string sourceFilePath = filePath;
@@ -223,7 +223,7 @@ namespace SoftManager
                         if (iU != null) iU.Undo();
 
                         //подключение к службе WMI и запуск метода установки
-                        entry.Status = "Установка...";
+                        entry.Status = Properties.Resources.Instalation;
                         ConnectionOptions connOptions = new ConnectionOptions();
                         if (userName.Length > 0)
                         {
@@ -323,7 +323,7 @@ namespace SoftManager
 
                 if (reply.Status != IPStatus.Success)
                 {
-                    entry.Status = "Узел недоступен";
+                    entry.Status = Properties.Resources.HostNotAvailable;
                 }
                 else
                 {
@@ -337,7 +337,7 @@ namespace SoftManager
                             iU.Impersonate(remoteMachine, userName, password);
                         }
 
-                        entry.Status = "Копирование файлов...";
+                        entry.Status = Properties.Resources.CopyFiles;
                         remoteFolder = @"\\" + remoteMachine + @"\c$\" + randomFolderName + @"\";
 
                         string sourceFilePath = filePath;
@@ -364,7 +364,7 @@ namespace SoftManager
 
 
                         //подключение к службе WMI и запуск процесса установки с параметрами
-                        entry.Status = "Установка...";
+                        entry.Status = Properties.Resources.Instalation;
                         ConnectionOptions connOptions = new ConnectionOptions();
                         if (userName.Length > 0)
                         {
@@ -478,13 +478,13 @@ namespace SoftManager
 
                 if (reply.Status != IPStatus.Success)
                 {
-                    entry.Status = "Узел недоступен";
+                    entry.Status = Properties.Resources.HostNotAvailable;
                 }
                 else
                 {
                     try
                     {
-                        entry.Status = "Поиск программы...";
+                        entry.Status = Properties.Resources.SearchingProgram;
                         ConnectionOptions connOptions = new ConnectionOptions();
                         if (userName.Length > 0 && password.Length > 0)
                         {
@@ -513,7 +513,7 @@ namespace SoftManager
                                 {
                                     if (mo["Name"].ToString() == programName)
                                     {
-                                        entry.Status = "Удаление...";
+                                        entry.Status = Properties.Resources.Deleting;
                                         ManagementBaseObject outParams = mo.InvokeMethod("Uninstall", null, null);
 
                                         errorCode = (uint)(outParams.Properties["ReturnValue"].Value);
@@ -542,7 +542,7 @@ namespace SoftManager
                                 }
                             }
                         }
-                        else entry.Status = "Программа не найдена";
+                        else entry.Status = Properties.Resources.ApplicationNotFound;
 
                     }
 
@@ -650,7 +650,7 @@ namespace SoftManager
 
                 if (reply.Status != IPStatus.Success)
                 {
-                    entry.Status = "Узел недоступен";
+                    entry.Status = Properties.Resources.HostNotAvailable;
                 }
                 else
                 {
@@ -663,7 +663,7 @@ namespace SoftManager
                             connOptions.Username = userName;
                             connOptions.Password = password;
                         }
-                        entry.Status = "Сканирование";
+                        entry.Status = Properties.Resources.Scaning;
                         ManagementScope managementScope = new ManagementScope(String.Format(@"\\{0}\ROOT\CIMV2",
                             remoteMachine), connOptions);
                         ObjectQuery query = new ObjectQuery("SELECT * FROM Win32_Product");
@@ -681,7 +681,7 @@ namespace SoftManager
                             }
                         }
 
-                        entry.Status = "Сканирование завершено";
+                        entry.Status = Properties.Resources.ScaningComplete;
                     }
                     catch (NullReferenceException e)
                     {

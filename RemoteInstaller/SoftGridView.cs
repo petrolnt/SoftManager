@@ -68,30 +68,30 @@ namespace SoftManager
             this.TabIndex = 0;
 
             this.enable.Frozen = true;
-            this.enable.HeaderText = "Выбрать";
+            this.enable.HeaderText = Properties.Resources.Select;
             this.enable.Name = "enable";
             this.enable.Width = 57;
 
             this.IdentifyingNumber.Frozen = true;
-            this.IdentifyingNumber.HeaderText = "Идентификатор";
+            this.IdentifyingNumber.HeaderText = Properties.Resources.ApplicationID;
             this.IdentifyingNumber.Name = "IdentifyingNumber";
             this.IdentifyingNumber.Visible = false;
             this.IdentifyingNumber.Width = 112;
 
             this.SoftName.Frozen = true;
-            this.SoftName.HeaderText = "Программа";
+            this.SoftName.HeaderText = Properties.Resources.Application;
             this.SoftName.Name = "SoftName";
             this.SoftName.ReadOnly = true;
             this.SoftName.Width = 91;
 
             this.Version.Frozen = true;
-            this.Version.HeaderText = "Версия";
+            this.Version.HeaderText = Properties.Resources.Version;
             this.Version.Name = "Version";
             this.Version.ReadOnly = true;
             this.Version.Width = 69;
 
             this.InstallDate.Frozen = true;
-            this.InstallDate.HeaderText = "Дата Установки";
+            this.InstallDate.HeaderText = Properties.Resources.DateOfInstalation;
             this.InstallDate.Name = "InstallDate";
             this.InstallDate.ReadOnly = true;
             this.InstallDate.Width = 106;

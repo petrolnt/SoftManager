@@ -208,9 +208,9 @@ namespace SoftManager
                 i++;
             }
             //создаем ProgressTable с данными о состоянии задач удаления на выбранных компьютерах
-            string formName = "Результаты удаления";
-            string firstColumnName = "Имя компьютера";
-            string secondColumnName = "Состояние процесса";
+            string formName = Properties.Resources.RemovingResults;
+            string firstColumnName = Properties.Resources.ComputerName;
+            string secondColumnName = Properties.Resources.ProcessStatus;
             ProgressTable progressTable = new ProgressTable(bindingSource, this, formName, firstColumnName, secondColumnName, doneEvents);
             progressTable.ShowDialog();
             
@@ -251,9 +251,9 @@ namespace SoftManager
                 i++;
             }
 
-            string formName = "Получение списка установленных программ";
-            string firstColumnName = "Имя компьютера";
-            string secondColumnName = "Состояние процесса";
+            string formName = Properties.Resources.GettingListOfInstalledPrograms;
+            string firstColumnName = Properties.Resources.ComputerName;
+            string secondColumnName = Properties.Resources.ProcessStatus; ;
             ProgressTable progressTable = new ProgressTable(bindingSource, this, formName, firstColumnName, secondColumnName, doneEvents);
             progressTable.ShowDialog();
             

@@ -80,7 +80,7 @@ namespace SoftManager
         /// <param name="sender"></param>
         /// <param name="e"></param>
 
-            private void button1_Click(object sender, EventArgs e)
+            private void btnChoosePackage_Click(object sender, EventArgs e)
         {
             DialogResult result = openFileDialog1.ShowDialog();
 
@@ -108,14 +108,14 @@ namespace SoftManager
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void button2_Click(object sender, EventArgs e)
+        private void btnInstall_Click(object sender, EventArgs e)
         {
             //проверка указаны ли целевые компьютеры и пакет msi для установки
             //если нет то выход
             if (compNameField.Text.Length == 0)
             {
-                string message = "Необходимо указать имя компьютера!";
-                string caption = "Ошибка ввода данных!";
+                string message = Properties.Resources.MustSpecifyComputerName;
+                string caption = Properties.Resources.DataEntryError;
                 MessageBoxButtons button = MessageBoxButtons.OK;
                 DialogResult result;
                 result = MessageBox.Show(message, caption, button);
@@ -125,8 +125,8 @@ namespace SoftManager
             if (filePathField.Text.Length == 0)
             {
 
-                string message = "Необходимо указать пакет msi!";
-                string caption = "Ошибка ввода данных!";
+                string message = Properties.Resources.MustSpecifyDistributive;
+                string caption = Properties.Resources.DataEntryError;
                 MessageBoxButtons button = MessageBoxButtons.OK;
                 DialogResult result;
                 result = MessageBox.Show(message, caption, button);
@@ -309,7 +309,7 @@ namespace SoftManager
             optionRestart = "REBOOT=forcerestart";
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
             softManager.Visible = true;
